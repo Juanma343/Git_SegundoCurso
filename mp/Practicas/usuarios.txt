@@ -1,0 +1,2 @@
+001:Juan Pérez:0:admin:hola
+002:juanma:1:juan:papa

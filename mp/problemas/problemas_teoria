@@ -1,0 +1,37 @@
+Problema teoria 1
+
+si x>y entonces
+	m <- x
+si_ no
+	m <- y
+fin_si
+
+precondicion que hemos hecho nosotros:
+
+x = A ^ y = B
+
+poscondicion que hemos hecho nosotros:
+
+m = MAX(A, B)
+
+haplicamos las condiciones de verificacion de la selectiva doble que es casi trivial 
+
+Problema teoria 2
+
+res <- 1
+minetras y > e hacer
+	res <- res + x
+	y <- y-1
+fin_mientras
+
+poscondicion hecha por mi
+
+y = e ^ res = x * (y - e)
+
+precondicion hecha por mi
+
+res = A ^ y = B ^ x = C ^ e = D
+
+invariante
+
+y > e ^ res = x * (y - e)

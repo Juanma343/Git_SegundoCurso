@@ -1,0 +1,30 @@
+Ppreorden: fghjaikbdecl
+Inorden: jhgiakfbdcel
+postorden: jhikagcledbf
+
+-------------------------------------------------------------------------------------
+
+Preorden:
+
+f pre(g) pre(b)
+f g pre(h) pre(a) b pre(d)
+f g h pre(j) a pre(i) pre(k) b d pre(e)
+f g h j a i k b d e pre(c) pre(l)
+f g h j a i k b d e c l
+
+Inorden:
+
+in(g) f in(b)
+in(h) g in(a) f b in(d)
+in(j) h g in(i) a in(k) f b in(e) d
+j h g i a k f b in(c) e in(l) d
+j h g i a k f b c e l d
+
+Posorden:
+
+pos(g) pos(b) f
+pos(h) pos(a) g pos(d) b f
+pos(j) h pos(i) pos(k) a g pos(e) d b f
+j h i k a g pos(c) pos(l) e d b f
+j h i k a g c l e d b f
+

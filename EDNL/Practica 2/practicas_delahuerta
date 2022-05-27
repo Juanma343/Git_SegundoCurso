@@ -1,0 +1,28 @@
+1------------------------------------------------------------------------------------------------
+el primer problema me he complicado mas de la cuenta he trabajado con los hijos dde los nodos pasados cuando deveria trabajar con los nodos
+funcion rec
+
+si n1 = nodo nulo and n2 = nodo nulo {
+    devolver true
+}
+si no {
+    si n1 = nodo nuo o rn2 = nodo nulo {
+        devolver false
+    }
+    si no {
+        devolver el and del izquierdo y el derecho 
+    }
+}
+
+2-------------------------------------------------------------------------------------------------
+
+dice que es mas complicado de la forma que o he planteado, es mejor enviar el arbol como paramatro en la funcion rec e ir añadiendole las cosas
+
+3----------------------------------------------------------------------------------------------------
+en estae caso no entra un arbol vacio por que no seria una expresion valida(no se save si devilver el elemento neutro de la suma o de la multiplicacion)
+
+
+4----------------------------------------------------------------------------------------------------
+en clase esta guardadp esta implementacion por niveles
+
+pista: busqueda dicotomica
