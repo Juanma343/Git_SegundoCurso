@@ -2,7 +2,7 @@
 #define AGEN_LIS_H
 #include <cassert>
 #include <cstdlib>
-#include "../TADS/listaenla.hpp"
+#include "listaenla.hpp"
 
 
 template <typename T> class Agen {
